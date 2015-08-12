@@ -65,10 +65,6 @@ app.put('/contactlist/:id', function(req,res){
       });
 });
 
-app.listen(7000);
-
-console.log('Server is running on port 7000');
-
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
